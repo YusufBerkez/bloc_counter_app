@@ -47,7 +47,10 @@ class MyProject extends StatelessWidget {
             ],
             title: Text("Bloc Counter App"),
             backgroundColor: Colors.black,
-            titleTextStyle: TextStyle(fontWeight: FontWeight.bold),
+            titleTextStyle: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 25,
+            ),
             foregroundColor: Colors.yellow,
           ),
           body: Center(child: Text('${state.counterValue}')),
